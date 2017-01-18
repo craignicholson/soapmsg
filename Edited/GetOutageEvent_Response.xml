@@ -1,0 +1,66 @@
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <MultiSpeakMsgHeader Version="3.0" xmlns="http://www.multispeak.org/Version_3.0" AppName="" AppVersion="8.1.3.2741.988695b6" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent="" />
+  </soap:Header>
+  <soap:Body>
+    <GetOutageEventResponse xmlns="http://www.multispeak.org/Version_3.0">
+      <GetOutageEventResult objectID="2014-10-23-0450">
+        <comments>10/23/2014 11:33:23 AM
+Tim Shelton assigned to outage.
+Faulty handle.  Pole # 152967.</comments>
+        <extensionsList>
+          <extensionsItem>
+            <extName>customersAffected</extName>
+            <extValue>1</extValue>
+            <extType>string</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>outagedPhase</extName>
+            <extValue>A</extValue>
+            <extType>string</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>X</extName>
+            <extValue>1987493.82968700002</extValue>
+            <extType>double</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>Y</extName>
+            <extValue>302191.938000300026</extValue>
+            <extType>double</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>latitude</extName>
+            <extValue>35.1634876318344425</extValue>
+            <extType>double</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>longitude</extName>
+            <extValue>-85.9364561948926564</extValue>
+            <extType>double</extType>
+          </extensionsItem>
+          <extensionsItem>
+            <extName>outageName</extName>
+            <extValue>XFMRSW3141089</extValue>
+            <extType>string</extType>
+          </extensionsItem>
+        </extensionsList>
+        <problemLocation>XFMRSW3141089</problemLocation>
+        <deviceID>XFMRSW3141089</deviceID>
+        <deviceType>Transformer</deviceType>
+        <substationCode>SEWANEE(14)</substationCode>
+        <feeder>CKT14314</feeder>
+        <outageDescription>Transformer XFMRSW3141089 Restored</outageDescription>
+        <outageStatus>Restored</outageStatus>
+        <startTime>2014-10-23T11:23:15.000-06:00</startTime>
+        <completed>2014-10-23T11:32:45.000-06:00</completed>
+        <outagedPhase>A</outagedPhase>
+        <customersAffected>1</customersAffected>
+        <priorityCustomersCount>0</priorityCustomersCount>
+        <ODEventCount>1</ODEventCount>
+        <customersRestored>1</customersRestored>
+        <outageReasonCodeList objectID="{EC92FEC8-B6F2-11E4-9C47-005056877A40}" />
+      </GetOutageEventResult>
+    </GetOutageEventResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,9 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="" UserID="" Pwd="" AppName="CRCLink" Company="CRC" xmlns="http://www.multispeak.org/Version_3.0"/>
+	</soap:Header>
+	<soap:Body>
+		<GetOutageReasonCodes xmlns="http://www.multispeak.org/Version_3.0"/>
+	</soap:Body>
+</soap:Envelope>

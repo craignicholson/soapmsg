@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header>
+		<ns1:MultiSpeakMsgHeader xmlns:ns1="http://www.multispeak.org/Version_3.0" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" AppName="blah" BuildString="" Company="" Pwd="" SessionID="1455834747561" TimeStamp="2016-02-18T22:33:13.716Z" UserID="" Version="3.0"/>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ServiceLocationChangedNotification xmlns="http://www.multispeak.org/Version_3.0">
+			<changedServiceLocations>
+				<serviceLocation objectID="44742" verb="Change">
+					<extensionsList>
+						<extensionsItem>
+							<extName>homeAc</extName>
+							<extValue>830</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>homePhone</extName>
+							<extValue>7082476</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>voteSw</extName>
+							<extValue>Y</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>votingDistCd</extName>
+							<extValue>6</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>rateStartDt</extName>
+							<extValue>02/18/2016</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>tempLocationCd</extName>
+							<extValue>P</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>dnpSw</extName>
+							<extValue>false</extValue>
+							<extType>boolean</extType>
+						</extensionsItem>
+					</extensionsList>
+					<gridLocation>63556308</gridLocation>
+					<facilityID>63556308</facilityID>
+					<custID>209740</custID>
+					<accountNumber>209740001</accountNumber>
+					<servAddr1>822 SCHUMACHER</servAddr1>
+					<servCity>NEW BRAUNFELS</servCity>
+					<servState>TX</servState>
+					<servZip>78130</servZip>
+					<servType/>
+					<revenueClass>GVEC+31</revenueClass>
+					<servStatus>1</servStatus>
+					<billingCycle>8</billingCycle>
+					<route>26</route>
+					<acRecvBal>-50.0</acRecvBal>
+					<acRecvCur>-50.0</acRecvCur>
+					<connectDate>2016-02-18T06:00:00.000Z</connectDate>
+					<network>
+						<boardDist>6</boardDist>
+						<taxDist/>
+						<franchiseDist>2</franchiseDist>
+						<schoolDist>34</schoolDist>
+						<district>20</district>
+						<county>6</county>
+						<cityCode>2</cityCode>
+						<substationCode>68</substationCode>
+						<feeder>5</feeder>
+						<phaseCd>A</phaseCd>
+						<eaLoc name="27"/>
+						<linkedTransformer>
+							<bankID>T63556308002</bankID>
+							<unitList>
+								<unitID>T-32405</unitID>
+							</unitList>
+						</linkedTransformer>
+						<linemanServiceArea>08</linemanServiceArea>
+					</network>
+					<phoneList>
+						<phoneNumber>
+							<phone>8307082476</phone>
+							<phoneType>Home</phoneType>
+						</phoneNumber>
+					</phoneList>
+					<timezone DSTEnabled="true" UTCOffset="-6.0" name="Central Standard Time"/>
+					<description>MTR ON A/E HOME</description>
+				</serviceLocation>
+			</changedServiceLocations>
+		</ServiceLocationChangedNotification>
+	</soapenv:Body>
+</soapenv:Envelope>

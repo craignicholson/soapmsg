@@ -1,0 +1,289 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="3.0" xmlns="http://www.multispeak.org/Version_3.0" AppName="Web Server" AppVersion="8.1.3.2741.988695b6" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent=""/>
+	</soap:Header>
+	<soap:Body>
+		<GetAllActiveOutageEventsResponse xmlns="http://www.multispeak.org/Version_3.0">
+			<GetAllActiveOutageEventsResult>
+				<outageEvent objectID="2014-02-05-0915">
+					<comments>2/5/2014 5:33:36 PM
+57 BENTON LANE
+-------------
+2/5/2014 5:33:43 PM
+Outage Message to customer: We are aware of, the outage in your area.  Crews have been dispatched to outage.
+
+-------------
+2/5/2014 6:28:32 PM
+Chris Wiles assigned to outage.
+2/5/2014 7:51:45 PM
+Per Justin S will restore this outage on 02/06/14...mdw
+-------------
+2/5/2014 9:28:10 PM
+Outage Message to customer: We are aware of, the outage in your area.  Crews have been notified of the outage.
+</comments>
+					<extensionsList>
+						<extensionsItem>
+							<extName>customersAffected</extName>
+							<extValue>3</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outagedPhase</extName>
+							<extValue>B</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>primaryCrew</extName>
+							<extValue>Chris Wiles</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>X</extName>
+							<extValue>1059069.84256200003</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>Y</extName>
+							<extValue>2184140.32025100011</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>latitude</extName>
+							<extValue>35.0594688015157416</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>longitude</extName>
+							<extValue>-92.8461733803737133</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outageName</extName>
+							<extValue>2014-02-05-0915</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+					</extensionsList>
+					<problemLocation>PC72685</problemLocation>
+					<deviceID>PC72685</deviceID>
+					<deviceType>Overhead Line</deviceType>
+					<substationCode>ADONA</substationCode>
+					<feeder>4101</feeder>
+					<actualFault/>
+					<outageDescription>Verified</outageDescription>
+					<outageStatus>Confirmed</outageStatus>
+					<startTime>2014-02-05T17:28:03.000-06:00</startTime>
+					<ETOR>2014-02-06T11:00:01.000-06:00</ETOR>
+					<crewsDispatched>
+						<crewID>Chris Wiles</crewID>
+					</crewsDispatched>
+					<isPlanned>false</isPlanned>
+					<outagedPhase>B</outagedPhase>
+					<customersAffected>3</customersAffected>
+					<priorityCustomersCount>0</priorityCustomersCount>
+					<ODEventCount>4</ODEventCount>
+					<customersRestored>0</customersRestored>
+					<isCustomerResponsible>false</isCustomerResponsible>
+					<outageReasonCodeList objectID="{22169692-8EF4-11E3-AFCF-0050568A272C}"/>
+				</outageEvent>
+				<outageEvent objectID="2014-02-04-0672">
+					<comments>-------------
+2/5/2014 12:45:08 AM
+
+Outage Message to customer: We are aware of, the outage in your area.  Crews have been notified of the outage.
+
+-------------
+2/5/2014 6:27:53 PM
+Highlines-Michael assigned to outage.</comments>
+					<extensionsList>
+						<extensionsItem>
+							<extName>customersAffected</extName>
+							<extValue>1</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outagedPhase</extName>
+							<extValue>B</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>primaryCrew</extName>
+							<extValue>Highlines-Michael</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>X</extName>
+							<extValue>1055994.73880399996</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>Y</extName>
+							<extValue>2201792.73179699993</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>latitude</extName>
+							<extValue>35.1078906351251518</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>longitude</extName>
+							<extValue>-92.8569407617148954</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outageName</extName>
+							<extValue>2014-02-04-0672</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+					</extensionsList>
+					<problemLocation>PC87964</problemLocation>
+					<deviceID>PC87964</deviceID>
+					<deviceType>Overhead Line</deviceType>
+					<substationCode>PETIT JEAN</substationCode>
+					<feeder>8703</feeder>
+					<actualFault>Broke pole</actualFault>
+					<outageDescription>Overhead PC87964 In work</outageDescription>
+					<outageStatus>Confirmed</outageStatus>
+					<startTime>2014-02-04T21:52:03.000-06:00</startTime>
+					<crewsDispatched>
+						<crewID>Highlines-Michael</crewID>
+					</crewsDispatched>
+					<isPlanned>false</isPlanned>
+					<outagedPhase>B</outagedPhase>
+					<customersAffected>1</customersAffected>
+					<priorityCustomersCount>0</priorityCustomersCount>
+					<ODEventCount>2</ODEventCount>
+					<customersRestored>0</customersRestored>
+					<isCustomerResponsible>false</isCustomerResponsible>
+					<outageReasonCodeList objectID="{22169693-8EF4-11E3-AFCF-0050568A272C}"/>
+				</outageEvent>
+				<outageEvent objectID="2014-02-05-0876">
+					<comments>2/5/2014 1:51:35 PM
+TRAIL 86
+-------------
+2/5/2014 1:51:43 PM
+Outage Message to customer: We are aware of, the outage in your area.  Crews have been notified of the outage.
+</comments>
+					<extensionsList>
+						<extensionsItem>
+							<extName>customersAffected</extName>
+							<extValue>1</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outagedPhase</extName>
+							<extValue>A</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>X</extName>
+							<extValue>1042543.510457</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>Y</extName>
+							<extValue>2123837.94052799977</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>latitude</extName>
+							<extValue>34.8934198624494343</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>longitude</extName>
+							<extValue>-92.899615917298263</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outageName</extName>
+							<extValue>2014-02-05-0876</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+					</extensionsList>
+					<problemLocation>TRF32463</problemLocation>
+					<deviceID>TRF32463</deviceID>
+					<deviceType>Transformer</deviceType>
+					<substationCode>PERRYVILLE</substationCode>
+					<feeder>8502</feeder>
+					<actualFault/>
+					<outageDescription>Transformer TRF32463 In work</outageDescription>
+					<outageStatus>Confirmed</outageStatus>
+					<startTime>2014-02-05T13:44:43.000-06:00</startTime>
+					<isPlanned>false</isPlanned>
+					<outagedPhase>A</outagedPhase>
+					<customersAffected>1</customersAffected>
+					<priorityCustomersCount>0</priorityCustomersCount>
+					<ODEventCount>3</ODEventCount>
+					<customersRestored>0</customersRestored>
+					<isCustomerResponsible>false</isCustomerResponsible>
+					<outageReasonCodeList objectID="{22169694-8EF4-11E3-AFCF-0050568A272C}"/>
+				</outageEvent>
+				<outageEvent objectID="2014-02-05-0923">
+					<comments>2/5/2014 10:07:57 PM
+858 STONY POINT RD
+-------------
+2/5/2014 10:08:05 PM
+Outage Message to customer: We are aware of, the outage in your area.  Crews have been notified of the outage.
+</comments>
+					<extensionsList>
+						<extensionsItem>
+							<extName>customersAffected</extName>
+							<extValue>1</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outagedPhase</extName>
+							<extValue>C</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>X</extName>
+							<extValue>1124546.33168799989</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>Y</extName>
+							<extValue>2189394.46820800006</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>latitude</extName>
+							<extValue>35.0751971777500628</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>longitude</extName>
+							<extValue>-92.6275252859749401</extValue>
+							<extType>double</extType>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outageName</extName>
+							<extValue>2014-02-05-0923</extValue>
+							<extType>string</extType>
+						</extensionsItem>
+					</extensionsList>
+					<problemLocation>TRF59826</problemLocation>
+					<deviceID>TRF59826</deviceID>
+					<deviceType>Transformer</deviceType>
+					<substationCode>BIGELOW</substationCode>
+					<feeder>4503</feeder>
+					<actualFault>Partial power</actualFault>
+					<outageDescription>Transformer TRF59826 In work</outageDescription>
+					<outageStatus>Confirmed</outageStatus>
+					<startTime>2014-02-05T22:02:00.000-06:00</startTime>
+					<ETOR>2014-02-06T11:00:00.000-06:00</ETOR>
+					<isPlanned>false</isPlanned>
+					<outagedPhase>C</outagedPhase>
+					<customersAffected>1</customersAffected>
+					<priorityCustomersCount>0</priorityCustomersCount>
+					<ODEventCount>2</ODEventCount>
+					<customersRestored>0</customersRestored>
+					<isCustomerResponsible>false</isCustomerResponsible>
+					<outageReasonCodeList objectID="{22169695-8EF4-11E3-AFCF-0050568A272C}"/>
+				</outageEvent>
+			</GetAllActiveOutageEventsResult>
+		</GetAllActiveOutageEventsResponse>
+	</soap:Body>
+</soap:Envelope>

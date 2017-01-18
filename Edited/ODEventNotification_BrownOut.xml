@@ -1,0 +1,43 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header>
+    <ns2:MultiSpeakMsgHeader xmlns:ns2="http://www.multispeak.org/Version_3.0" AppName="" AppVersion="1.0" CSUnits="feet" Company="" Pwd="" UserID="" />
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:ODEventNotification xmlns:ns2="http://www.multispeak.org/Version_3.0">
+      <ns2:ODEvents>
+        <ns2:outageDetectionEvent>
+          <ns2:eventTime>2012-11-03T14:17:59.000-04:00</ns2:eventTime>
+          <ns2:outageEventType>Inferred</ns2:outageEventType>
+          <ns2:outageDetectDeviceID>35531965</ns2:outageDetectDeviceID>
+          <ns2:outageDetectDeviceType>Meter</ns2:outageDetectDeviceType>
+          <ns2:outageLocation>
+            <ns2:meterNo>02000849</ns2:meterNo>
+            <ns2:areaCode>21202</ns2:areaCode>
+          </ns2:outageLocation>
+          <ns2:messageList>
+            <ns2:message>
+              <ns2:comments>BrownOutAlarmEvent</ns2:comments>
+            </ns2:message>
+          </ns2:messageList>
+          <ns2:priority>NeedsAttention</ns2:priority>
+        </ns2:outageDetectionEvent>
+        <ns2:outageDetectionEvent>
+          <ns2:eventTime>2012-11-03T14:17:59.000-04:00</ns2:eventTime>
+          <ns2:outageEventType>Restoration</ns2:outageEventType>
+          <ns2:outageDetectDeviceID>35531965</ns2:outageDetectDeviceID>
+          <ns2:outageDetectDeviceType>Meter</ns2:outageDetectDeviceType>
+          <ns2:outageLocation>
+            <ns2:meterNo>02000849</ns2:meterNo>
+            <ns2:areaCode>21202</ns2:areaCode>
+          </ns2:outageLocation>
+          <ns2:messageList>
+            <ns2:message>
+              <ns2:comments>PowerRestoredOutageEvent</ns2:comments>
+            </ns2:message>
+          </ns2:messageList>
+          <ns2:priority>NeedsAttention</ns2:priority>
+        </ns2:outageDetectionEvent>
+      </ns2:ODEvents>
+    </ns2:ODEventNotification>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

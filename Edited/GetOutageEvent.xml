@@ -1,0 +1,11 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="3.0" AppName="Web Server" AppVersion="8.1.3.2741.988695b6" Company="" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent="" xmlns="http://www.multispeak.org/Version_3.0"/>
+	</soap:Header>
+	<soap:Body>
+		<GetOutageEvent xmlns="http://www.multispeak.org/Version_3.0">
+			<outageEventID>2014-02-05-0915</outageEventID>
+		</GetOutageEvent>
+	</soap:Body>
+</soap:Envelope>

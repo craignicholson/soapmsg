@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Header>
+		<MultiSpeakMsgHeader xmlns="http://www.multispeak.org/Version_3.0" UserID="" Pwd="" AppName="" AppVersion="0.1" Company=""/>
+	</soap:Header>
+	<soap:Body>
+		<CDStateChangedNotification xmlns="http://www.multispeak.org/Version_3.0">
+			<meterNo>4770333</meterNo>
+			<stateChange>Disconnect</stateChange>
+			<transactionID>7</transactionID>
+		</CDStateChangedNotification>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,160 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="3.0" xmlns="http://www.multispeak.org/Version_3.0" AppName="Company Web Server" AppVersion="8.1.3.2741.988695b6" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent=""/>
+	</soap:Header>
+	<soap:Body>
+		<GetAllActiveCallsResponse xmlns="http://www.multispeak.org/Version_3.0">
+			<GetAllActiveCallsResult>
+				<outageDetectionLog objectID="{2216968E-8EF4-11E3-AFCF-0050568A272C}">
+					<phaseCd>B</phaseCd>
+					<loggedODEventList>
+						<loggedOutageDetectionEvent objectID="{575E2A5E-8E6E-11E3-AFCF-0050568A272C}">
+							<outageDetectionRecordID>{575E2A5E-8E6E-11E3-AFCF-0050568A272C}</outageDetectionRecordID>
+							<eventTime>2014-02-05T13:46:30.000-06:00</eventTime>
+							<outageDetectDeviceID>54365369000</outageDetectDeviceID>
+							<problemCode>1</problemCode>
+							<outageEventType>Outage</outageEventType>
+							<description>
+Member is reporting an outage. She says there is a power line sitting on the ground. , submitted by 338gre
+</description>
+						</loggedOutageDetectionEvent>
+					</loggedODEventList>
+					<outageLocation objectID="54365369000">
+						<servLoc>54365369000</servLoc>
+						<meterNo>10339077</meterNo>
+						<areaCode>501</areaCode>
+						<phone>3529484</phone>
+						<accountNumber>4000234713</accountNumber>
+					</outageLocation>
+					<outageCustomer>
+						<custID>6790449</custID>
+						<callBackAC>501</callBackAC>
+						<callBackPhone>3529484</callBackPhone>
+						<callBackFlag>false</callBackFlag>
+						<callRecordID>{575E2A5E-8E6E-11E3-AFCF-0050568A272C}</callRecordID>
+						<outageEventID>2014-02-04-0672</outageEventID>
+					</outageCustomer>
+					<priority>NeedsAttention</priority>
+					<resolvedLevel>Meter</resolvedLevel>
+					<timeTroubleBegan>2014-02-05T08:04:01.000-06:00</timeTroubleBegan>
+					<timeOfInitialEvent>2014-02-05T08:04:01.000-06:00</timeOfInitialEvent>
+					<timeOfLastEvent>2014-02-05T13:46:30.000-06:00</timeOfLastEvent>
+					<eventsLogged>2</eventsLogged>
+				</outageDetectionLog>
+				<outageDetectionLog objectID="{2216968F-8EF4-11E3-AFCF-0050568A272C}">
+					<phaseCd>B</phaseCd>
+					<loggedODEventList>
+						<loggedOutageDetectionEvent objectID="{BB01C488-7F5D-493F-86DA-622171CFEDB7}">
+							<outageDetectionRecordID>{BB01C488-7F5D-493F-86DA-622171CFEDB7}</outageDetectionRecordID>
+							<eventTime>2014-02-05T17:28:57.000-06:00</eventTime>
+							<outageDetectDeviceID>53365503000</outageDetectDeviceID>
+							<problemCode>1</problemCode>
+							<outageEventType>Outage</outageEventType>
+							<description>-------------
+2/5/2014 5:28:06 PM
+Problem Code = Wires Down
+</description>
+						</loggedOutageDetectionEvent>
+					</loggedODEventList>
+					<outageLocation objectID="53365503000">
+						<servLoc>53365503000</servLoc>
+						<meterNo>6651586</meterNo>
+						<areaCode>501</areaCode>
+						<phone>6624271</phone>
+						<accountNumber>4059763002</accountNumber>
+					</outageLocation>
+					<outageCustomer>
+						<custID>6767195</custID>
+						<callBackAC>501</callBackAC>
+						<callBackPhone>6624271</callBackPhone>
+						<callBackFlag>true</callBackFlag>
+						<callBackType>Manual</callBackType>
+						<callRecordID>{BB01C488-7F5D-493F-86DA-622171CFEDB7}</callRecordID>
+						<outageEventID>2014-02-05-0915</outageEventID>
+					</outageCustomer>
+					<priority>NeedsAttention</priority>
+					<resolvedLevel>Meter</resolvedLevel>
+					<timeTroubleBegan>2014-02-05T17:28:03.000-06:00</timeTroubleBegan>
+					<timeOfInitialEvent>2014-02-05T17:28:03.000-06:00</timeOfInitialEvent>
+					<timeOfLastEvent>2014-02-05T17:28:57.000-06:00</timeOfLastEvent>
+					<eventsLogged>2</eventsLogged>
+				</outageDetectionLog>
+				<outageDetectionLog objectID="{22169690-8EF4-11E3-AFCF-0050568A272C}">
+					<phaseCd>C</phaseCd>
+					<loggedODEventList>
+						<loggedOutageDetectionEvent objectID="{8BBF4EFB-0F73-427E-B441-F249B314F617}">
+							<outageDetectionRecordID>{8BBF4EFB-0F73-427E-B441-F249B314F617}</outageDetectionRecordID>
+							<eventTime>2014-02-05T22:06:00.000-06:00</eventTime>
+							<outageDetectDeviceID>53407965000</outageDetectDeviceID>
+							<problemCode>1</problemCode>
+							<outageEventType>Outage</outageEventType>
+							<description>*** CALLER NAME: CHARTER JERALD O *** PART OF THE HOUSE HAS POWER AND THE OTHER HALF IS OFF. STATED THAT IT COULD POSSIBLY BE A LOSE POWER LINE COMING TO THE HOUSE.
+-------------
+2/5/2014 10:05:08 PM
+Problem Code = C
+</description>
+						</loggedOutageDetectionEvent>
+					</loggedODEventList>
+					<outageLocation objectID="53407965000">
+						<servLoc>53407965000</servLoc>
+						<meterNo>6650450</meterNo>
+						<areaCode>501</areaCode>
+						<phone>7592036</phone>
+						<accountNumber>8005597401</accountNumber>
+					</outageLocation>
+					<outageCustomer>
+						<custID>140770</custID>
+						<callBackAC>501</callBackAC>
+						<callBackPhone>7592036</callBackPhone>
+						<callBackFlag>false</callBackFlag>
+						<callRecordID>{8BBF4EFB-0F73-427E-B441-F249B314F617}</callRecordID>
+						<outageEventID>2014-02-05-0923</outageEventID>
+					</outageCustomer>
+					<priority>NeedsAttention</priority>
+					<resolvedLevel>Meter</resolvedLevel>
+					<timeTroubleBegan>2014-02-05T22:02:00.000-06:00</timeTroubleBegan>
+					<timeOfInitialEvent>2014-02-05T22:02:00.000-06:00</timeOfInitialEvent>
+					<timeOfLastEvent>2014-02-05T22:06:00.000-06:00</timeOfLastEvent>
+					<eventsLogged>2</eventsLogged>
+				</outageDetectionLog>
+				<outageDetectionLog objectID="{22169691-8EF4-11E3-AFCF-0050568A272C}">
+					<phaseCd>A</phaseCd>
+					<loggedODEventList>
+						<loggedOutageDetectionEvent objectID="{F04CD37F-8E9D-11E3-AFCF-0050568A272C}">
+							<outageDetectionRecordID>{F04CD37F-8E9D-11E3-AFCF-0050568A272C}</outageDetectionRecordID>
+							<eventTime>2014-02-05T13:47:33.000-06:00</eventTime>
+							<outageDetectDeviceID>49353498000</outageDetectDeviceID>
+							<problemCode>1</problemCode>
+							<outageEventType>Outage</outageEventType>
+							<description>
+TNS CANT READ, submitted by 656sharo
+</description>
+						</loggedOutageDetectionEvent>
+					</loggedODEventList>
+					<outageLocation objectID="49353498000">
+						<servLoc>49353498000</servLoc>
+						<meterNo>8460193</meterNo>
+						<areaCode>501</areaCode>
+						<phone>8892652</phone>
+						<accountNumber>8006811901</accountNumber>
+					</outageLocation>
+					<outageCustomer>
+						<custID>148479</custID>
+						<callBackAC>501</callBackAC>
+						<callBackPhone>8892652</callBackPhone>
+						<callBackFlag>false</callBackFlag>
+						<callRecordID>{F04CD37F-8E9D-11E3-AFCF-0050568A272C}</callRecordID>
+						<outageEventID>2014-02-05-0876</outageEventID>
+					</outageCustomer>
+					<priority>NeedsAttention</priority>
+					<resolvedLevel>Meter</resolvedLevel>
+					<timeTroubleBegan>2014-02-05T13:44:49.000-06:00</timeTroubleBegan>
+					<timeOfInitialEvent>2014-02-05T13:44:49.000-06:00</timeOfInitialEvent>
+					<timeOfLastEvent>2014-02-05T13:47:33.000-06:00</timeOfLastEvent>
+					<eventsLogged>3</eventsLogged>
+				</outageDetectionLog>
+			</GetAllActiveCallsResult>
+		</GetAllActiveCallsResponse>
+	</soap:Body>
+</soap:Envelope>

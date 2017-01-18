@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader xmlns="http://www.multispeak.org/Version_4.1_Release" Company="" UserID="" Pwd=""/>
+	</soap:Header>
+	<soap:Body>
+		<MeterAddNotification xmlns="http://www.multispeak.org/Version_4.1_Release">
+			<addedMeters>
+				<electricMeters>
+					<electricMeter>
+						<meterNo>TEST-M-777</meterNo>
+						<meterBaseID>NOT USE</meterBaseID>
+						<serialNumber>TEST-S-777</serialNumber>
+						<electricNameplate>
+							<dials>12345</dials>
+							<dialsSpecified>true</dialsSpecified>
+							<multiplier>999.9</multiplier>
+						</electricNameplate>
+						<!-- Substation Name and Feeder name must already be in MDM -->
+						<electricLocationFields>
+							<substationCode>Thailand</substationCode>
+							<feederCode>Bangkok</feederCode>
+						</electricLocationFields>
+						<sealNumberList/>
+						<parentMeterList/>
+						<subMeterList/>
+						<meterConnectionStatus>Other</meterConnectionStatus>
+						<configuredReadingTypes/>
+						<meterCommAddress>string</meterCommAddress>
+						<billingStatusInformation/>
+						<remoteReconnectSetting>Other</remoteReconnectSetting>
+						<utilityInfo>
+							<accountNumber>a123456001</accountNumber>
+							<customerNumber>Not Used</customerNumber>
+							<serviceLocationID>loc123456</serviceLocationID>
+						</utilityInfo>
+						<extensionsList>
+							<extensionsItem>
+								<extName>AMRPort</extName>
+								<extValue>9999</extValue>
+							</extensionsItem>
+						</extensionsList>
+						<meterType>AMR Type</meterType>
+						<installedDate>2016-04-20T16:37:30.662Z</installedDate>
+						<installedDateSpecified>true</installedDateSpecified>
+						<manufacture>Manufacture</manufacture>
+						<!-- When Removed Date is provided, MSpeak rejects 
+             <removedDate>2016-04-21</removedDate>
+             <removedDateSpecified>true</removedDateSpecified>
+-->
+					</electricMeter>
+				</electricMeters>
+				<waterMeters>
+					<waterMeter>
+						<meterNo>TEST-M-778</meterNo>
+						<meterBaseID>NOT USE</meterBaseID>
+						<serialNumber>TEST-S-778</serialNumber>
+						<sealNumberList/>
+						<parentMeterList/>
+						<subMeterList/>
+						<meterConnectionStatus>Other</meterConnectionStatus>
+						<configuredReadingTypes/>
+						<meterCommAddress>string</meterCommAddress>
+						<billingStatusInformation/>
+						<remoteReconnectSetting>Other</remoteReconnectSetting>
+						<utilityInfo>
+							<accountNumber>a123456002</accountNumber>
+							<customerNumber>Not Used</customerNumber>
+							<serviceLocationID>loc123457</serviceLocationID>
+						</utilityInfo>
+						<extensionsList>
+							<extensionsItem>
+								<extName>AMRPort</extName>
+								<extValue>9999</extValue>
+							</extensionsItem>
+						</extensionsList>
+						<meterType>AMR Type</meterType>
+						<installedDate>2016-04-20T16:37:30.662Z</installedDate>
+						<installedDateSpecified>true</installedDateSpecified>
+						<manufacture>Manufacture</manufacture>
+						<waterNameplate xsi:nil="true"/>
+						<waterLocationFields xsi:nil="true"/>
+					</waterMeter>
+				</waterMeters>
+			</addedMeters>
+		</MeterAddNotification>
+	</soap:Body>
+</soap:Envelope>

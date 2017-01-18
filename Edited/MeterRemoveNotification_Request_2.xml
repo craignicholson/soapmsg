@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header>
+		<ns1:MultiSpeakMsgHeader xmlns:ns1="http://www.multispeak.org/Version_3.0" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" AppName="" BuildString="" Company="" Pwd="" SessionID="1455547071517" TimeStamp="2016-02-15T14:37:53.553Z" UserID="" Version="3.0"/>
+	</soapenv:Header>
+	<soapenv:Body>
+		<MeterRemoveNotification xmlns="http://www.multispeak.org/Version_3.0">
+			<removedMeters>
+				<meter objectID="98157030" verb="Delete">
+					<extensionsList>
+						<extensionsItem>
+							<extName>xponderNo</extName>
+							<extValue>4614308</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>AMRPort</extName>
+							<extValue>0</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>meterStatus</extName>
+							<extValue>3</extValue>
+						</extensionsItem>
+						<extensionsItem>
+							<extName>outReading</extName>
+							<extValue>0</extValue>
+						</extensionsItem>
+					</extensionsList>
+					<outServiceDate>2016-02-15T06:00:00.000Z</outServiceDate>
+					<meterNo>98157030</meterNo>
+					<serialNumber/>
+					<meterType>6</meterType>
+					<AMRType>SENS</AMRType>
+					<AMRVendor>SENSUS</AMRVendor>
+					<nameplate>
+						<kh>1.8</kh>
+						<testAmperage>2.5</testAmperage>
+						<wires>4</wires>
+						<dials>6</dials>
+						<form>9S</form>
+						<transponderID>4614308</transponderID>
+					</nameplate>
+					<utilityInfo>
+						<servLoc/>
+						<accountNumber/>
+						<custID/>
+					</utilityInfo>
+					<meterStatusList>
+						<meterStatus>InInventory</meterStatus>
+					</meterStatusList>
+				</meter>
+			</removedMeters>
+		</MeterRemoveNotification>
+	</soapenv:Body>
+</soapenv:Envelope>

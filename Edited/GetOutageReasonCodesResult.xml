@@ -1,0 +1,896 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="3.0" xmlns="http://www.multispeak.org/Version_3.0" AppName="" AppVersion="8.1.3.2741.988695b6" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent=""/>
+	</soap:Header>
+	<soap:Body>
+		<GetOutageReasonCodesResponse xmlns="http://www.multispeak.org/Version_3.0">
+			<GetOutageReasonCodesResult objectID="{266E1AD2-8F81-11E3-AFCF-0050568A272C}">
+				<outageReasonList>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>010 Generation</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">010</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>020 Towers, poles, and fixtures</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">020</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>030 Conductors and devices</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">030</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>040 Transmission substations</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">040</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>090 Generation or transmission, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">090</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>100 Power transformer</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">100</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>110 Voltage regulator</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">110</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>120 Lightning arrester</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">120</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>130 Source side fuse</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">130</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>140 Circuit breaker</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">140</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>150 Switch</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">150</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>160 Metering equipment</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">160</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>190 Distribution substation, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">190</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>200 Pole</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">200</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>210 Crossarm or crossarm brace</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">210</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>220 Anchor or guy</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">220</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>290 Poles and fixtures, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">290</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>300 Line conductor</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">300</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>310 Connector or clamp</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">310</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>320 Splice or dead end</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">320</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>330 Jumper</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">330</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>340 Insulator</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">340</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>350 Lightning arrester line</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">350</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>360 Fuse cutout (damaged, malfunction, maintenance)</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">360</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>370 Recloser or sectionalizer (damaged, malfunction, maintenance)</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">370</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>390 Overhead line conductors and devices, distribution, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">390</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>400 Primary cable</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">400</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>410 Splice or fitting</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">410</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>420 Switch</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">420</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>430 Elbow arrester</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">430</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>440 Secondary cable or fittings</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">440</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>450 Elbow</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">450</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>460 Pothead or terminator</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">460</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>490 Underground, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">490</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>500 Transformer bad</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">500</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>510 Transformer fuse or breaker</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">510</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>520 Transformer arrester</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">520</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>590 Line transformer, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">590</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>600 Secondary or service conductor</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">600</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>610 Metering equipment</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">610</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>620 Security or street light</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">620</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>690 Secondary and service, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">690</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>EquipmentFailure</category>
+						<outageReason>
+							<description>999 No Equipment failure</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">999</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>000 Power supply</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">000</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>100 Construction</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">100</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>110 Maintenance</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">110</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>190 Other planned</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">190</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>300 Material or equipment fault/failure</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">300</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>310 Installation fault</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">310</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>320 Conductor sag or inadequate clearance</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">320</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>340 Overload</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">340</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>350 Miscoordination of protection devices</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">350</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>360 Other equipment installation/design</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">360</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>400 Decay/age of material/equipment</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">400</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>410 Corrosion/abrasion of material/equipment</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">410</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>420 Tree growth</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">420</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>430 Tree failure from overhang or dead tree without ice/snow</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">430</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>440 Trees with ice/snow</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">440</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>450 Contamination (leakage/external)</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">450</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>460 Moisture</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">460</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>470 Borrower crew cuts tree</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">470</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>490 Maintenance, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">490</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>500 Lightning</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">500</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>510 Wind, not trees</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">510</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>520 Ice, sleet, frost, not trees</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">520</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>530 Flood</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">530</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>590 Weather, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">590</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>600 Small animal/bird</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">600</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>610 Large animal</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">610</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>620 Animal damage-gnawing or boring</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">620</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>690 Animal, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">690</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>700 Customer-caused</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">700</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>710 Motor vehicle</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">710</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>720 Aircraft</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">720</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>730 Fire</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">730</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>740 Public cuts tree</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">740</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>750 Vandalism</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">750</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>760 Switching error or caused by construction or maintenance</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">760</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>790 Public, other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">790</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>800 Other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">800</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>OutageCause</category>
+						<outageReason>
+							<description>999 Cause unknown</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">999</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>001 &lt; 1 KV (Secondary/Low Voltage)</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">001</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>002 5 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">002</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>003 15 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">003</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>004 25 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">004</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>005 35 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">005</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>006 60 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">006</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>VoltageLevel</category>
+						<outageReason>
+							<description>007 > 60 KV</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">007</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>010 Rain</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">010</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>020 Lightning</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">020</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>030 Wind</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">030</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>040 Snow</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">040</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>050 Ice</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">050</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>060 Sleet</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">060</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>070 Extreme Cold</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">070</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>080 Extreme Heat</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">080</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>090 Weather Other</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">090</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+					<outageReasonItem>
+						<category>WeatherCondition</category>
+						<outageReason>
+							<description>100 Clear, calm</description>
+							<outageReportingCodeList>
+								<outageReportingCode reportingBody="RUS1730A-119">100</outageReportingCode>
+							</outageReportingCodeList>
+						</outageReason>
+					</outageReasonItem>
+				</outageReasonList>
+			</GetOutageReasonCodesResult>
+		</GetOutageReasonCodesResponse>
+	</soap:Body>
+</soap:Envelope>

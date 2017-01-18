@@ -1,0 +1,28 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Luis R. Malave (Milsoft Utility Solutions) -->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader Version="3.0" xmlns="http://www.multispeak.org/Version_3.0" AppName="" AppVersion="8.1.3.2741.988695b6" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent=""/>
+	</soap:Header>
+	<soap:Body>
+		<GetOutageEventStatusByOutageLocationResponse xmlns="http://www.multispeak.org/Version_3.0">
+			<GetOutageEventStatusByOutageLocationResult objectID="2014-02-06-0924" verb="Change">
+				<extensionsList>
+					<extensionsItem>
+						<extName>callRecordID</extName>
+						<extValue>{78A83510-E983-43CA-BA0B-28F12C7E0A47}</extValue>
+						<extType>string</extType>
+					</extensionsItem>
+					<extensionsItem>
+						<extName>servLoc</extName>
+						<extValue>55554355000</extValue>
+						<extType>string</extType>
+					</extensionsItem>
+				</extensionsList>
+				<outageStatus>Assumed</outageStatus>
+				<crewDispatched>false</crewDispatched>
+				<crewOnSite>false</crewOnSite>
+				<customerFound>true</customerFound>
+			</GetOutageEventStatusByOutageLocationResult>
+		</GetOutageEventStatusByOutageLocationResponse>
+	</soap:Body>
+</soap:Envelope>

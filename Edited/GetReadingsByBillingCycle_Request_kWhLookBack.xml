@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <MultiSpeakMsgHeader MajorVersion="1" MinorVersion="1" Build="1" UserID="" Pwd=""  xmlns="http://www.multispeak.org/Version_4.1_Release" />
+  </soap:Header>
+  <soap:Body>
+    <GetReadingsByBillingCycle xmlns="http://www.multispeak.org/Version_4.1_Release">
+      <billingCycle>17</billingCycle>
+      <billingDate>2015-03-05</billingDate>
+      <kWhLookBack>4</kWhLookBack>
+      <kWLookBack>0</kWLookBack>
+      <kWLookForward>0</kWLookForward>
+      <lastReceived>Test Data = 2/19/15-3/5/2015. Should only show kwh reading data. Kwh=PosKwh + NegKwh + Kvar.No KW. Show reading data from 3/1-3/5 </lastReceived>
+      <formattedBlockTemplateName>string</formattedBlockTemplateName>
+      <fieldName>
+        <string>string</string>
+        <string>string</string>
+      </fieldName>
+    </GetReadingsByBillingCycle>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header>
+		<ns1:MultiSpeakMsgHeader xmlns:ns1="http://www.multispeak.org/Version_3.0" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" CSUnits="feet" AppName="" BuildString="ac" Company="" Pwd="" SessionID="7" TimeStamp="2014-02-11T16:16:32.173Z" UserID="" Version="3.0"/>
+	</soapenv:Header>
+	<soapenv:Body>
+		<InitiateConnectDisconnect xmlns="http://www.multispeak.org/Version_3.0">
+			<cdEvents>
+				<connectDisconnectEvent objectID="4770333+1392135392143">
+					<servLoc>10046</servLoc>
+					<custID>190441</custID>
+					<gridLocation>1962070613</gridLocation>
+					<accountNumber>190441001</accountNumber>
+					<meterID>4770333</meterID>
+					<loadActionCode>Disconnect</loadActionCode>
+					<reasonCode>NonPayment</reasonCode>
+					<amountDue>-221.31</amountDue>
+					<meterNo>4770333</meterNo>
+				</connectDisconnectEvent>
+			</cdEvents>
+			<responseURL>http://46094dbs:35000/cisservices/services/CB_ServerSoap</responseURL>
+			<transactionID>7</transactionID>
+			<expirationTime>45.0</expirationTime>
+		</InitiateConnectDisconnect>
+	</soapenv:Body>
+</soapenv:Envelope>

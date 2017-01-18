@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<MultiSpeakMsgHeader xmlns="http://www.multispeak.org/Version_3.0" Version="3.0" AppName="" AppVersion="7" Company="" CSUnits="feet" CoordinateSystem="TEXAS STATEWIDE MAPPING SYSTEM" Datum="North American 1927" SessionID="" PreviousSessionID="" ObjectsRemaining="0" LastSent=""/>
+	</soap:Header>
+	<soap:Body>
+		<PingURLResponse xmlns="http://www.multispeak.org/Version_3.0">
+			<PingURLResult/>
+		</PingURLResponse>
+	</soap:Body>
+</soap:Envelope>
